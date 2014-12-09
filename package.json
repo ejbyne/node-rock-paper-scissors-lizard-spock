@@ -1,0 +1,11 @@
+{
+  "name": "starting-node",
+  "version": "1.0.0",
+  "description": "Makers Academy Week 7 Activity - introduction to Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alan Bridger and Ed Byne",
+  "license": "ISC"
+}
