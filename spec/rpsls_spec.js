@@ -1,8 +1,8 @@
 describe("RockPaperScissors", function() {
 
-  var Player = require('../src/player');
-  var Game = require('../src/game');
-  var AutoPlayer = require('../src/autoplayer');
+  var Player = require('../public/javascripts/player');
+  var Game = require('../public/javascripts/game');
+  var AutoPlayer = require('../public/javascripts/autoplayer');
   
   var player1, player2, game;
 

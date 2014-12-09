@@ -9,12 +9,12 @@ module.exports = function(grunt){
       },
 
     jshint: {
-        src: ['src/*.js']
+        src: ['public/javascripts/*.js']
     },
     
     watch: {
       scripts: {
-        files: ['src/*.js'],
+        files: ['public/javascripts/*.js'],
         tasks: ['jshint']
       }
     }

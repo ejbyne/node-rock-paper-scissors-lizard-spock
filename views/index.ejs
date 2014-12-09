@@ -1,0 +1,63 @@
+<!doctype>
+<html>
+
+  <head>
+      <title>Rock Paper Scissors Lizard Spock</title>
+      <link rel="stylesheet" type="text/css" href="public/stylesheets/design.css">
+  </head>
+
+  <body>
+    
+    <header id="scorecard"></header>
+
+    <div class="blackout">
+    </div>
+    <div class="msgbox">
+      <form>
+        <input type="text" id="text" name="name" placeholder="Please enter your name" autocomplete="off">
+        <button id="start"><value="Start">
+      </form>
+    </div>
+      
+    <article id="choices">
+      <div class='pick'>
+        <a href="#" data-pick='rock'>Rock</a>
+      </div>
+      <div class='pick'>
+        <a href="#" data-pick='paper'>Paper</a>
+      </div>
+      <div class='pick'>
+        <a href="#" data-pick='scissors'>Scissors</a>
+      </div>
+      <div class='pick'>
+        <a href="#" data-pick='lizard'>Lizard</a>
+      </div>
+      <div class='pick'>
+        <a href="#" data-pick='spock'>Spock</a>
+      </div>
+    </article>
+
+    <section>
+      <ul id="results"></ul>
+    </section>
+
+    <template id='list-item-template'>
+      <li>{{ message }}</li>
+    </template>
+
+    <template id='scorecard-template'>
+      <p>{{ human_score }}</p>
+      <p>{{ computer_score }}</p>
+    </template>
+
+    <script src='public/javascripts/Player.js'></script>
+    <script src='public/javascripts/Game.js'></script>
+    <script src='public/javascripts/AutoPlayer.js'></script>
+    <script src='public/javascripts/jquery-2.1.1.min.js'></script>
+    <script src='public/javascripts/jquery-ui.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js'></script>
+    <script src='public/javascripts/PageInteraction.js'></script>
+
+  </body>
+
+</html>
