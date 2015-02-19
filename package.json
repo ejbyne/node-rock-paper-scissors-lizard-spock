@@ -4,7 +4,8 @@
   "description": "Makers Academy Week 7 Activity - introduction to Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose",
+    "start": "node app.js"
   },
   "author": "Alan Bridger and Ed Byne",
   "license": "ISC",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "ejs": "^1.0.0",
-    "express": "^4.10.4"
+    "express": "^4.10.7",
+    "module": "0.0.1"
   }
 }
