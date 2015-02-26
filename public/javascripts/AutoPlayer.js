@@ -1,5 +1,5 @@
-function AutoPlayer(name) {
-  this.name = name
+var AutoPlayer = function(name) {
+  this.name = name;
 };
 
 AutoPlayer.prototype.picks = function(history) {

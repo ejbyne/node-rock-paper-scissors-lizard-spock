@@ -1,4 +1,4 @@
-function Player() {
+var Player = function() {
 };
 
 Player.prototype.picks = function(pick) {

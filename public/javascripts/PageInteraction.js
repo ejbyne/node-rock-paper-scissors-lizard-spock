@@ -75,8 +75,8 @@ $(document).ready(function() {
 
   var renderScore = function(game, human, computer){
     var html = $('#scorecard-template').html();
-    var data = { human_score: (human.name + "'s score: " + game.scores['player1']),
-                 computer_score: (computer.name + "'s score: " + game.scores['player2']) }
+    var data = { human_score: (human.name + "'s score: " + game.scores.player1),
+                 computer_score: (computer.name + "'s score: " + game.scores.player2) };
     return Mustache.render(html, data);
   };
 
